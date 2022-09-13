@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "name": "background-generator",
+  "description": "A page where you can extract a linear gradient background rgba code and you can directly paste it into your css file. You can choose your desired color or create it randomly.",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayjess/lineargradientbackgroundcolorgenerator.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayjess/lineargradientbackgroundcolorgenerator.github.io/issues"
+  },
+  "homepage": "https://github.com/sayjess/lineargradientbackgroundcolorgenerator.github.io#readme"
+}
